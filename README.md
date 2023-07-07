@@ -1,2 +1,0 @@
-# lokal-projex
-lokal projex

@@ -131,6 +131,10 @@ ol li {
     width: 100%;
 }
 
+.logo1 {
+    display: none;
+}
+
 .navbar {
     align-items: center;
     background: transparent;
@@ -933,6 +937,13 @@ li.menu-item.current-menu-item {
     border-radius: 6px;
     background: #0097A2;
     box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.syarat-sectiont:hover {
+    transform: scale(.96);
 }
 
 .sectiont3 {
@@ -1034,6 +1045,13 @@ li.menu-item.current-menu-item {
     border-radius: 6px;
     background: #FFF;
     box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-warnalokal:hover {
+    transform: scale(.96);
 }
 
 .btnnext {
@@ -1055,6 +1073,13 @@ li.menu-item.current-menu-item {
     border-radius: 6px;
     background: #0097A2;
     box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.next-warnalokal:hover {
+    transform: scale(.96);
 }
 
 
@@ -5696,7 +5721,7 @@ input[type=file] {
 
 .modal-body__textt {
     overflow-y: scroll;
-    height: 500px;
+    height: 400px;
 }
 
 .modal-body__textt p {
@@ -6391,13 +6416,16 @@ input[type=file] {
         line-height: 46px;
     }
     .navbar {
-        justify-content: right;
+        justify-content: space-between;
     }
     .sectiont2__slider {
         width: 54%;
     }
     .sectiont2__logo {
         margin-top: -180px;
+    }
+    .logo1 {
+        display: block;
     }
 }
 
@@ -6472,9 +6500,6 @@ input[type=file] {
         margin-left: 0;
         margin-top: 0px;
         margin-bottom: 10px;
-    }
-    .header {
-        min-height: 60px;
     }
     li.menu-item.current-menu-item {
         padding: 0 75px
@@ -7383,14 +7408,9 @@ input[type=file] {
     .obj-3 img {
         width: 72px;
     }
-    .logo img {
-        width: 245px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .logo {
+    /* .logo {
         max-width: auto;
-    }
+    } */
     .register__title {
         font-size: 28px;
         line-height: 37px;
@@ -7746,4 +7766,16 @@ input[type=file] {
         font-size: 12px;
         line-height: 14px;
     }
+    .logo img {
+        width: 180px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: none;
+    }
+    /* .logo {
+        width: 180px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: block;
+    } */
 }
